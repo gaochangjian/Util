@@ -1,0 +1,26 @@
+{
+    "name": "util/http",
+    "description": "guzzlehttp",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "高长健",
+            "email": "1002145342@qq.com"
+        }
+    ],
+    "require": {
+      "php": ">=5.5.0",
+      "guzzlehttp/guzzle": "~6.0"
+   },
+    "require": {
+      
+      "phpoffice/phpexcel": "1.8.1"
+   },
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4" : {
+            "Util\\":"src/"
+        } 
+    }
+}
