@@ -1,8 +1,5 @@
 <?php
 namespace Util\http;
-use GuzzleHttp\Client;
-use GuzzleHttp\Exception\RequestException;
-use GuzzleHttp\Promise;
  
 class Http {
  
